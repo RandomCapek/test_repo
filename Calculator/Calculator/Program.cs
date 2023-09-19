@@ -13,6 +13,27 @@ namespace Calculator
 {
     internal class Program
     {
+
+        static int Soucet(int x, int y)
+        {
+            int result = x + y;
+            return result;
+        }
+        static int Rozdil(int x, int y)
+        {
+            int result = x - y;
+            return result;
+        }
+        static int Soucin(int x, int y)
+        {
+            int result = x * y;
+            return result;
+        } 
+        static int Podil(int x, int y)
+        {
+            int result = x / y;
+            return result;
+        }
         static void Main(string[] args)
         {
             /*
@@ -37,7 +58,58 @@ namespace Calculator
              * 3) Umozni uzivateli zadavat i desetinna cisla, tedy prekopej kalkulacku tak, aby umela pracovat s floaty
              */
 
-            //Tento komentar smaz a misto nej zacni psat svuj prdacky kod.
+
+            int a;
+            int b;
+
+
+            string vstup = Console.ReadLine();
+
+            a = int.Parse(vstup);
+
+            string operace = Console.ReadLine();
+
+            vstup = Console.ReadLine();
+
+            b = int.Parse(vstup);
+
+
+
+
+            //int result = a + b;
+
+
+            int result = 0;
+
+            if (operace == "+")
+            {
+               
+                result = Soucet(a, b);
+                            }
+               else if (operace == "-")
+            {
+                
+                result = Rozdil(a, b);
+            }
+                else if (operace == "*")
+            {
+                
+                result = Soucin(a, b);
+            }
+                else if (operace == "/")
+            {
+                
+                result = Podil(a, b);
+            }
+
+
+            Console.WriteLine(a);
+
+            Console.WriteLine(b);
+
+            Console.WriteLine("Vysledek je " + result);
+
+            
 
             Console.ReadKey(); //Toto nech jako posledni radek, aby se program neukoncil ihned, ale cekal na stisk klavesy od uzivatele.
         }
