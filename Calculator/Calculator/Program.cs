@@ -13,6 +13,7 @@ namespace Calculator
 {
     internal class Program
     {
+        static bool uspesnaOperace = true;  //vzdy, kdyz je operace uspesna (true), vypíise se vysledek
 
         static int Soucet(int x, int y)
         {
@@ -31,10 +32,20 @@ namespace Calculator
         } 
         static int Podil(int x, int y)
         {
+            if (y == 0)
+            {                                           //pokud by se dělilo nulou, napiš, že to nejde
+                Console.WriteLine("Nelze dělit nulou!");
+                uspesnaOperace = false;                 //uspesna operace tim padem neni true, ale false
+                return 0;
+            }
+
             int result = x / y;
             return result;
         }
-        static void Main(string[] args)
+        
+        //definuju co se má stát za operaci
+
+                static void Main(string[] args)
         {
             /*
              * Pokud se budes chtit na neco zeptat a zrovna budu pomahat jinde, zkus se zeptat ChatGPT ;) - https://chat.openai.com/
@@ -73,19 +84,16 @@ namespace Calculator
 
             b = int.Parse(vstup);
 
+            //konvertuje string do integeru => úkoly 2 a 3
 
-
-
-            //int result = a + b;
-
-
-            int result = 0;
+            
+            int result = 0; //aby byl defaultní result 0 (na začátku, po výápočtu se změní) => úkol 5
 
             if (operace == "+")
             {
                
                 result = Soucet(a, b);
-                            }
+            }
                else if (operace == "-")
             {
                 
@@ -100,15 +108,33 @@ namespace Calculator
             {
                 
                 result = Podil(a, b);
+                             
+            }
+
+                else
+            {
+                Console.WriteLine("Tuto operaci zatím neumím vyřešit");
             }
 
 
-            Console.WriteLine(a);
+            //if na každou početní operaci, odkazuje na názvy operací které jsem si definoval úplně nahoře
 
-            Console.WriteLine(b);
 
-            Console.WriteLine("Vysledek je " + result);
 
+            //Console.WriteLine(a);
+            //sloužilo jako kontrola vstupů
+            //Console.WriteLine(b);
+
+
+            if (uspesnaOperace == true)
+            {
+
+                Console.WriteLine("Vysledek je " + result); //vypíše mi výsledek
+            }
+            else
+            {
+                Console.WriteLine("Operaci nelze vyřešit!");
+            }
             
 
             Console.ReadKey(); //Toto nech jako posledni radek, aby se program neukoncil ihned, ale cekal na stisk klavesy od uzivatele.
