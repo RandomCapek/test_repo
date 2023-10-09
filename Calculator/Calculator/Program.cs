@@ -13,6 +13,10 @@ namespace Calculator
 {
     internal class Program
     {
+        private static bool IsNumeric(string input) //chatGPT totálka :/
+        {
+            return float.TryParse(input, out _);
+        }
         static bool uspesnaOperace = true;  //vzdy, kdyz je operace uspesna (true), vypise se vysledek
 
         static float Soucet(float x, float y)
@@ -78,12 +82,12 @@ namespace Calculator
             }
             return (float)cosinusVysledek;
         }
-        static float Tangens(float x)
+        static float Tangens(float x) //velmi poodobný jako sinus a cosinus
         {
             double uhelVeStupnich = x;
             double uhelVRadianech = uhelVeStupnich * (Math.PI / 180);
             double tangensVysledek = Math.Tan(uhelVRadianech);
-            if (x == 90)
+            if (x == 90) //neni definovan pro tg(90 a 270)
             {
                 Console.WriteLine(" syntax error");
                 uspesnaOperace = false;
@@ -102,7 +106,7 @@ namespace Calculator
             double uhelVeStupnich = x;
             double uhelVRadianech = uhelVeStupnich * (Math.PI / 180);
             double tangensVysledek = Math.Tan(uhelVRadianech);
-            if (x == 0)
+            if (x == 0) //neni definovan, akorat jine stupne
             {
                 Console.WriteLine(" syntax error");
                 uspesnaOperace = false;
@@ -129,8 +133,9 @@ namespace Calculator
             return (float)(1/tangensVysledek);
 
             }
-        }
-        //definuju co se má stát za operaci
+
+        }                                                              
+        //definuju co se má stát za operaci 
 
                 static void Main(string[] args)
         {
@@ -161,20 +166,35 @@ namespace Calculator
             Console.WriteLine("  | KALKULAČKA |");        //úvod
             Console.WriteLine("  --------------");
             Console.WriteLine("");
+            bool exitRequested = false; //chatGPT
+        while (!exitRequested) //chatGPT
+        {
+
             float a;
             float b;
-
             float result = 0f; //aby byl defaultní result 0 (na začátku, po výpočtu se změní) => úkol 5
+            bool ValidInput = false;
+            while (!ValidInput)
+        {
+            try
+        {
 
-            Console.WriteLine(" zadej prvni cislo:");
-            string vstup = Console.ReadLine();
-
+            Console.WriteLine(" Zadej prvni cislo, nebo ukonči enterem:");
+            string vstup = Console.ReadLine(); //chatGPT a kamarád na telefonu totálka
+                        if (string.IsNullOrWhiteSpace(vstup))
+                        {
+                            exitRequested = true;
+                            break;
+                        }
+                        //kontrola, jestli zadal uživatel pouze čísla
+                        if (!IsNumeric(vstup))
+                        {
+                            Console.WriteLine(" SEŠ DEMENT VOLE, PIŠ JENOM ČÍSLA");
+                            continue;  //pokračujem v cyklu
+                        }
             vstup = vstup.Replace('.', ','); //uzivatel muze zadat i tecku, i carku (neboli tecka se v programu zmeni na carku, ktera funguje)
 
-            a = float.Parse(vstup);
-        
-
-               
+            a = float.Parse(vstup);               
             
             Console.WriteLine(" zadej operaci (+,-,*,/,na,z,log,sin,cos,tg,cotg)");
             string operace = Console.ReadLine();
@@ -204,7 +224,7 @@ namespace Calculator
             vstup = vstup.Replace('.', ','); //uzivatel muze zadat i tecku, i carku
             b = float.Parse(vstup);
 
-            //konvertuje string do floategeru => úkoly 2 a 3
+            //konvertuje string do integeru => úkoly 2 a 3 (nyní už float ;)
                         
             if (operace == "+")
             {
@@ -233,7 +253,7 @@ namespace Calculator
                 else if (operace == "log")
             {
                 result = Logaritmus(a, b);
-            }
+            }            
                 else
             {
                 Console.WriteLine(" Něco jsi zadal špatně debílku!");
@@ -250,11 +270,31 @@ namespace Calculator
             else
             {
                 Console.WriteLine(" Operaci nelze vyřešit!");
-            }
+        }
 
-            Console.WriteLine(" Klikni na cokoli pro ukončení"); 
+            }
+            catch (FormatException) //od chatGPT, sam vubec netusim (celej try i catch, ale umisteni a tak nejak jsem to zandal sam, ale majority of it je od legendy chatGPT :D
+            {
+                Console.WriteLine(" Chybný vstup! Zkus to znovu");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Došlo k chybě: " + ex.Message);
+            }
+        }
+                    if (exitRequested) //chatGPT totálka
+                {
+                    break;
+                }
+                {
+                    Console.WriteLine(" Stiskni enter, nebo začni nový příklad");
+                    if (Console.ReadKey().Key == ConsoleKey.Enter)
+                        exitRequested = true;
+                }
+        }
+            Console.WriteLine(" Znova Enter :-)"); 
 
             Console.ReadKey(); //Toto nech jako posledni radek, aby se program neukoncil ihned, ale cekal na stisk klavesy od uzivatele.
-        }
-    }
-}
+        }   //chatGPT mi pomohl hodně, ale většinou mi jen trochu pomohl ale udělal jsem to sám, párkrát jsem to opsal úplně :(
+    }       // pár věcí mi v programu nefunguje nebo funguje nějak částečně, ale myslím, že to ani tolik nejde poznat
+}           // možna jen tak, že má krásných 300 řádků :)
