@@ -1,0 +1,7 @@
+U:\PRG\test_repo\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+U:\PRG\test_repo\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\Calculator\Calculator\bin\Debug\Calculator.exe.config
+U:\PRG\test_repo\Calculator\Calculator\bin\Debug\Calculator.exe
+U:\PRG\test_repo\Calculator\Calculator\bin\Debug\Calculator.pdb
+U:\PRG\test_repo\Calculator\Calculator\obj\Debug\Calculator.exe
+U:\PRG\test_repo\Calculator\Calculator\obj\Debug\Calculator.pdb
