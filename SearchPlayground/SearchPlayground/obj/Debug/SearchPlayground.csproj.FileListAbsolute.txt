@@ -1,0 +1,7 @@
+U:\PRG\test_repo\SearchPlayground\SearchPlayground\bin\Debug\SearchPlayground.exe.config
+U:\PRG\test_repo\SearchPlayground\SearchPlayground\bin\Debug\SearchPlayground.exe
+U:\PRG\test_repo\SearchPlayground\SearchPlayground\bin\Debug\SearchPlayground.pdb
+U:\PRG\test_repo\SearchPlayground\SearchPlayground\obj\Debug\SearchPlayground.csproj.AssemblyReference.cache
+U:\PRG\test_repo\SearchPlayground\SearchPlayground\obj\Debug\SearchPlayground.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\SearchPlayground\SearchPlayground\obj\Debug\SearchPlayground.exe
+U:\PRG\test_repo\SearchPlayground\SearchPlayground\obj\Debug\SearchPlayground.pdb
