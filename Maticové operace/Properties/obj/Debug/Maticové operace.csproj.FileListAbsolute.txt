@@ -1,0 +1,7 @@
+D:\škola\PRG\test_repo\Maticové operace\bin\Debug\Maticové operace.exe.config
+D:\škola\PRG\test_repo\Maticové operace\bin\Debug\Maticové operace.exe
+D:\škola\PRG\test_repo\Maticové operace\bin\Debug\Maticové operace.pdb
+D:\škola\PRG\test_repo\Maticové operace\obj\Debug\Maticové operace.csproj.AssemblyReference.cache
+D:\škola\PRG\test_repo\Maticové operace\obj\Debug\Maticové operace.csproj.CoreCompileInputs.cache
+D:\škola\PRG\test_repo\Maticové operace\obj\Debug\Maticové operace.exe
+D:\škola\PRG\test_repo\Maticové operace\obj\Debug\Maticové operace.pdb

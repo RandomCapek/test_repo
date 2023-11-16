@@ -1,0 +1,7 @@
+D:\škola\PRG\test_repo\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\škola\PRG\test_repo\Calculator\Calculator\bin\Debug\Calculator.exe
+D:\škola\PRG\test_repo\Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\škola\PRG\test_repo\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+D:\škola\PRG\test_repo\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\škola\PRG\test_repo\Calculator\Calculator\obj\Debug\Calculator.exe
+D:\škola\PRG\test_repo\Calculator\Calculator\obj\Debug\Calculator.pdb
