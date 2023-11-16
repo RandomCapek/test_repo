@@ -1,0 +1,7 @@
+U:\PRG\test_repo\SortingPlayground\SortingPlayground\obj\Debug\SortingPlayground.csproj.AssemblyReference.cache
+U:\PRG\test_repo\SortingPlayground\SortingPlayground\obj\Debug\SortingPlayground.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\SortingPlayground\SortingPlayground\bin\Debug\SortingPlayground.exe.config
+U:\PRG\test_repo\SortingPlayground\SortingPlayground\bin\Debug\SortingPlayground.exe
+U:\PRG\test_repo\SortingPlayground\SortingPlayground\bin\Debug\SortingPlayground.pdb
+U:\PRG\test_repo\SortingPlayground\SortingPlayground\obj\Debug\SortingPlayground.exe
+U:\PRG\test_repo\SortingPlayground\SortingPlayground\obj\Debug\SortingPlayground.pdb

@@ -1,0 +1,7 @@
+U:\PRG\test_repo\ArrayPlayground\ArrayPlayground\bin\Debug\ArrayPlayground.exe.config
+U:\PRG\test_repo\ArrayPlayground\ArrayPlayground\bin\Debug\ArrayPlayground.exe
+U:\PRG\test_repo\ArrayPlayground\ArrayPlayground\bin\Debug\ArrayPlayground.pdb
+U:\PRG\test_repo\ArrayPlayground\ArrayPlayground\obj\Debug\ArrayPlayground.csproj.AssemblyReference.cache
+U:\PRG\test_repo\ArrayPlayground\ArrayPlayground\obj\Debug\ArrayPlayground.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\ArrayPlayground\ArrayPlayground\obj\Debug\ArrayPlayground.exe
+U:\PRG\test_repo\ArrayPlayground\ArrayPlayground\obj\Debug\ArrayPlayground.pdb

@@ -12,7 +12,11 @@ using System.Threading.Tasks;
 namespace RockPaperScissors
 {
     internal class Program
+<<<<<<< HEAD
     {
+=======
+    {        
+>>>>>>> 2c35ae7177021e1116269d749c6f05a0aabaa523
         static void Main(string[] args)
         {
             /*
@@ -53,6 +57,7 @@ namespace RockPaperScissors
              */
 
             Random rng = new Random(); //instance tridy Random pro generovani nahodnych cisel
+<<<<<<< HEAD
             int skoreHrac = 0;
             int skorePocitac = 0;
 
@@ -117,6 +122,14 @@ namespace RockPaperScissors
 
 
 
+=======
+            int skore1 = 0;
+            int skore2 = 0;
+            int volba = rng.Next(1, 4);
+            /*Console.WriteLine(skore1);
+            Console.WriteLine(skore2);*/
+            
+>>>>>>> 2c35ae7177021e1116269d749c6f05a0aabaa523
             Console.ReadKey(); //Aby se nam to hnedka neukoncilo
         }
     }

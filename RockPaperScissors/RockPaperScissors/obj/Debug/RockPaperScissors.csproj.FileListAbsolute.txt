@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\škola\PRG\test_repo\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.exe.config
 D:\škola\PRG\test_repo\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.exe
 D:\škola\PRG\test_repo\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.pdb
@@ -5,3 +6,12 @@ D:\škola\PRG\test_repo\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperS
 D:\škola\PRG\test_repo\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.CoreCompileInputs.cache
 D:\škola\PRG\test_repo\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.exe
 D:\škola\PRG\test_repo\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.pdb
+=======
+U:\PRG\Gymvod_23-24\Oktavy\4 - 26.9.2023\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.exe.config
+U:\PRG\Gymvod_23-24\Oktavy\4 - 26.9.2023\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.exe
+U:\PRG\Gymvod_23-24\Oktavy\4 - 26.9.2023\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.pdb
+U:\PRG\Gymvod_23-24\Oktavy\4 - 26.9.2023\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.AssemblyReference.cache
+U:\PRG\Gymvod_23-24\Oktavy\4 - 26.9.2023\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.CoreCompileInputs.cache
+U:\PRG\Gymvod_23-24\Oktavy\4 - 26.9.2023\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.exe
+U:\PRG\Gymvod_23-24\Oktavy\4 - 26.9.2023\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.pdb
+>>>>>>> 2c35ae7177021e1116269d749c6f05a0aabaa523

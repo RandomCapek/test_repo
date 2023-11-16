@@ -1,0 +1,7 @@
+U:\PRG\test_repo\RecursionPlayground\RecursionPlayground\bin\Debug\RecursionPlayground.exe.config
+U:\PRG\test_repo\RecursionPlayground\RecursionPlayground\bin\Debug\RecursionPlayground.exe
+U:\PRG\test_repo\RecursionPlayground\RecursionPlayground\bin\Debug\RecursionPlayground.pdb
+U:\PRG\test_repo\RecursionPlayground\RecursionPlayground\obj\Debug\RecursionPlayground.csproj.AssemblyReference.cache
+U:\PRG\test_repo\RecursionPlayground\RecursionPlayground\obj\Debug\RecursionPlayground.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\RecursionPlayground\RecursionPlayground\obj\Debug\RecursionPlayground.exe
+U:\PRG\test_repo\RecursionPlayground\RecursionPlayground\obj\Debug\RecursionPlayground.pdb
