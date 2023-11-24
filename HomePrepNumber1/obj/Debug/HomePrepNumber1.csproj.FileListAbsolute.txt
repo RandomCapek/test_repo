@@ -1,0 +1,7 @@
+D:\škola\PRG\test_repo\HomePrepNumber1\bin\Debug\HomePrepNumber1.exe.config
+D:\škola\PRG\test_repo\HomePrepNumber1\bin\Debug\HomePrepNumber1.exe
+D:\škola\PRG\test_repo\HomePrepNumber1\bin\Debug\HomePrepNumber1.pdb
+D:\škola\PRG\test_repo\HomePrepNumber1\obj\Debug\HomePrepNumber1.csproj.AssemblyReference.cache
+D:\škola\PRG\test_repo\HomePrepNumber1\obj\Debug\HomePrepNumber1.csproj.CoreCompileInputs.cache
+D:\škola\PRG\test_repo\HomePrepNumber1\obj\Debug\HomePrepNumber1.exe
+D:\škola\PRG\test_repo\HomePrepNumber1\obj\Debug\HomePrepNumber1.pdb
