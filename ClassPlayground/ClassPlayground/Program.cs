@@ -103,6 +103,8 @@ namespace ClassPlayground
             human1.SetAge("Hahaha");
             human1.PrintCharacteristics();
 
+            Class1 newCladdInstance = new Class1();
+
             Console.ReadKey();
         }
     }
