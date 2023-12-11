@@ -68,6 +68,7 @@ namespace ClassPlayground
     {
         static void Main(string[] args)
         {
+            /*
             //Rectangle
             Console.WriteLine("Zadej šířku a výšku obdélníku");
             Rectangle rect = new Rectangle(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
@@ -94,9 +95,15 @@ namespace ClassPlayground
             acc.Deposit(int.Parse(Console.ReadLine()));
             Console.WriteLine($"        balance: {acc.balance} {acc.currency}");
             acc.Transfer(100,467413818); // chtěl bych si jeste vypsat, kolik kam prevadim, ale nevim, jak to vypsat do konzole :/
+            BankAccount accForTransfer = new BankAccount(Console.ReadLine(), Console.ReadLine()); // vytvoreni uctu, na ktery budu transferovat (asi, idk)
+            */
 
-
-
+            //Student
+            Student student1 = new Student();
+            Console.WriteLine("Přidej nějaký předmět do listu");
+            student1.AddSubjects(Console.ReadLine());
+            Console.WriteLine(student1.subjects.Values);
+            
 
 
 

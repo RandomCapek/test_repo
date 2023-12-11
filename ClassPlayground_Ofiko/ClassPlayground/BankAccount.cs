@@ -27,7 +27,7 @@ namespace ClassPlayground
      */
     internal class BankAccount
     {
-        Random random = new Random();
+        Random random = new Random(); // pro vygenerovani nahodneho cisla uctu (accountNumber)
 
         public int accountNumber;
         public string holderName;
