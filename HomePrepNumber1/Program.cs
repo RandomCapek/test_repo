@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HomePrepNumber1
 {
@@ -109,23 +105,27 @@ namespace HomePrepNumber1
             }
 
             // Uživatel bude do konzole psát na každý řádek libovolné číslo, dokud nenapíše místo čísla “stop”. Napiš while/for cyklus, ve kterém tohle načítání realizuješ.
-
-            for (int i = 0; i < 9; i++)
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Zadávání čísel do pole");
+            Console.ResetColor();
+            for (int i = 0; i < 4; i++)
             {
                 string arrayNumbers = Console.ReadLine();
                 if (arrayNumbers == "stop")
                 {
                     break;
-                }
-                else
-                {
-                    Convert.ToInt32(arrayNumbers);
-                }
+                }                                   //kamo vubec netusim co tady delam aaaaa
+            }
+            for (int i = 0; i < 4; i++)
+            {
+                int[] array = new int[5];
+                array[i] = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine(array[i]);
             }
 
             // Čísla ukládej za sebou do integerového pole, které si nadefinuj libovolně velké.
-            int[] array = new int[10];
-            
+
             // Dávej ovšem pozor, aby uživatel nemohl zadat více proměnných, než je tvoje velikost pole.
 
             // Po číslech bude uživatel psát na každý řádek operaci (zatím jenom + a -). Ukládej si operace do charového pole stejným principem, jako sis ukládal čísla s tím, že operací musí být o 1 méně, než je čísel.

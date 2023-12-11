@@ -1,0 +1,14 @@
+U:\PRG\Gymvod_23-24\Oktavy\14 - 5.12.2023\ClassPlayground\ClassPlayground\bin\Debug\ClassPlayground.exe.config
+U:\PRG\Gymvod_23-24\Oktavy\14 - 5.12.2023\ClassPlayground\ClassPlayground\bin\Debug\ClassPlayground.exe
+U:\PRG\Gymvod_23-24\Oktavy\14 - 5.12.2023\ClassPlayground\ClassPlayground\bin\Debug\ClassPlayground.pdb
+U:\PRG\Gymvod_23-24\Oktavy\14 - 5.12.2023\ClassPlayground\ClassPlayground\obj\Debug\ClassPlayground.csproj.AssemblyReference.cache
+U:\PRG\Gymvod_23-24\Oktavy\14 - 5.12.2023\ClassPlayground\ClassPlayground\obj\Debug\ClassPlayground.csproj.CoreCompileInputs.cache
+U:\PRG\Gymvod_23-24\Oktavy\14 - 5.12.2023\ClassPlayground\ClassPlayground\obj\Debug\ClassPlayground.exe
+U:\PRG\Gymvod_23-24\Oktavy\14 - 5.12.2023\ClassPlayground\ClassPlayground\obj\Debug\ClassPlayground.pdb
+D:\škola\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\bin\Debug\ClassPlayground.exe.config
+D:\škola\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\bin\Debug\ClassPlayground.exe
+D:\škola\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\bin\Debug\ClassPlayground.pdb
+D:\škola\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\obj\Debug\ClassPlayground.csproj.AssemblyReference.cache
+D:\škola\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\obj\Debug\ClassPlayground.csproj.CoreCompileInputs.cache
+D:\škola\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\obj\Debug\ClassPlayground.exe
+D:\škola\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\obj\Debug\ClassPlayground.pdb

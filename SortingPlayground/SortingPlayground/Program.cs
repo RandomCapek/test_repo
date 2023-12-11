@@ -38,41 +38,22 @@ namespace SortingPlayground
             /*
              * TODO: Naimplementuj selection sort.
              */
-            //int min = sortedArray[0];            
-            //for (int i = 0; i < sortedArray.Length; i++)
-            //{
-            //    for (int j = i+1; j < sortedArray.Length; j = i++)
-            //    {
-            //        for (int u = 0; u < sortedArray.Length; u++)
-            //        {
-            //            if (sortedArray[i]<min)
-            //            {
-            //                min = sortedArray[i];
-            //            }
-            //        }
-            //    }
-            //}
-
-            //Podle ChatGPT :-)
-
-            int n = sortedArray.Length;
-
-            for (int i = 0; i < n - 1; i++)
+            for (int j = 0; j < sortedArray.Length - 1; j++) // projizdim prvky pole
             {
-                int minIndex = i;
-
-                for (int j = i + 1; j < n; j++)
+            int min = j; 
+                for (int i = j + 1; i < sortedArray.Length; i++)
                 {
-                    if (sortedArray[j] < sortedArray[minIndex])
+                    if (sortedArray[i] < sortedArray[min]) // pokud je hodnota, na ktere prave jsem mensi, nez muj pozatimni min
                     {
-                        minIndex = j;
+                        min = i; // dosadim i za min
                     }
                 }
-
-                // Prohodíme prvek na pozici i s prvkem na pozici minIndex
-                int temp = sortedArray[minIndex];
-                sortedArray[minIndex] = sortedArray[i];
-                sortedArray[i] = temp;
+                if (min != j) // 
+                {
+                int temp = sortedArray[j]; // prohazuji nalezenej min s prvnim prvkem
+                sortedArray[j] = sortedArray[min];
+                sortedArray[min] = temp;
+                }
             }
             return sortedArray;
         }
@@ -83,6 +64,20 @@ namespace SortingPlayground
             /*
              * TODO: Naimplementuj insertion sort.
              */
+            for (int j = 0; j < sortedArray.Length - 1; j++)
+            {
+                for (int i = 1; i < sortedArray.Length; i++)
+                {
+                    j = i;
+                    while (j > 0 && sortedArray[j-1] > sortedArray[j])
+                    {
+                        int temp = sortedArray[j]; // prohazuju prvek j s prvkem nalevo od nej
+                        sortedArray[j] = (int)sortedArray[j-1];
+                        sortedArray[j-1] = temp;
+                        j--; // j - 1
+                    }
+                }
+            }
             return sortedArray;
         }
 

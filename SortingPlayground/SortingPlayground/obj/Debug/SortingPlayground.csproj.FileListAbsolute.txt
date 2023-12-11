@@ -5,3 +5,10 @@ U:\PRG\test_repo\SortingPlayground\SortingPlayground\bin\Debug\SortingPlayground
 U:\PRG\test_repo\SortingPlayground\SortingPlayground\bin\Debug\SortingPlayground.pdb
 U:\PRG\test_repo\SortingPlayground\SortingPlayground\obj\Debug\SortingPlayground.exe
 U:\PRG\test_repo\SortingPlayground\SortingPlayground\obj\Debug\SortingPlayground.pdb
+D:\škola\PRG\test_repo\SortingPlayground\SortingPlayground\bin\Debug\SortingPlayground.exe.config
+D:\škola\PRG\test_repo\SortingPlayground\SortingPlayground\bin\Debug\SortingPlayground.exe
+D:\škola\PRG\test_repo\SortingPlayground\SortingPlayground\bin\Debug\SortingPlayground.pdb
+D:\škola\PRG\test_repo\SortingPlayground\SortingPlayground\obj\Debug\SortingPlayground.csproj.AssemblyReference.cache
+D:\škola\PRG\test_repo\SortingPlayground\SortingPlayground\obj\Debug\SortingPlayground.csproj.CoreCompileInputs.cache
+D:\škola\PRG\test_repo\SortingPlayground\SortingPlayground\obj\Debug\SortingPlayground.exe
+D:\škola\PRG\test_repo\SortingPlayground\SortingPlayground\obj\Debug\SortingPlayground.pdb

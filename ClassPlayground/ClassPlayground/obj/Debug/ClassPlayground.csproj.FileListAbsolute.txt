@@ -1,0 +1,7 @@
+U:\PRG\test_repo\ClassPlayground\ClassPlayground\bin\Debug\ClassPlayground.exe.config
+U:\PRG\test_repo\ClassPlayground\ClassPlayground\bin\Debug\ClassPlayground.exe
+U:\PRG\test_repo\ClassPlayground\ClassPlayground\bin\Debug\ClassPlayground.pdb
+U:\PRG\test_repo\ClassPlayground\ClassPlayground\obj\Debug\ClassPlayground.csproj.AssemblyReference.cache
+U:\PRG\test_repo\ClassPlayground\ClassPlayground\obj\Debug\ClassPlayground.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\ClassPlayground\ClassPlayground\obj\Debug\ClassPlayground.exe
+U:\PRG\test_repo\ClassPlayground\ClassPlayground\obj\Debug\ClassPlayground.pdb
