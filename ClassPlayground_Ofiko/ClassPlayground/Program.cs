@@ -68,8 +68,11 @@ namespace ClassPlayground
     {
         static void Main(string[] args)
         {
-            /*
+
             //Rectangle
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("RECTANGLE:");
+            Console.ResetColor();
             Console.WriteLine("Zadej šířku a výšku obdélníku");
             Rectangle rect = new Rectangle(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
             rect.CalculateArea();
@@ -84,8 +87,12 @@ namespace ClassPlayground
             {
                 Console.WriteLine("Bod NELEŽÍ v obdélníku");
             }
+            
 
             //BankAccount
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("BANK ACCOUNT:");
+            Console.ResetColor();
             Console.WriteLine("\nZadej jméno držitele a měnu účtu");
             BankAccount acc = new BankAccount(Console.ReadLine(),Console.ReadLine());
             Console.WriteLine($"        Učet klienta {acc.holderName} v měně {acc.currency}:");
@@ -94,11 +101,14 @@ namespace ClassPlayground
             Console.Write("        Chci si poslat: ");
             acc.Deposit(int.Parse(Console.ReadLine()));
             Console.WriteLine($"        balance: {acc.balance} {acc.currency}");
-            acc.Transfer(100,467413818); // chtěl bych si jeste vypsat, kolik kam prevadim, ale nevim, jak to vypsat do konzole :/
-            BankAccount accForTransfer = new BankAccount(Console.ReadLine(), Console.ReadLine()); // vytvoreni uctu, na ktery budu transferovat (asi, idk)
-            */
+            acc.Withdraw(); // funkce Withdraw
+            acc.Transfer(); // funkce transfer
+
 
             //Student
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("STUDENT:");
+            Console.ResetColor();
             Student student1 = new Student();
             Console.WriteLine("Přidej nějaký předmět do listu");
             student1.AddSubjects(Console.ReadLine());

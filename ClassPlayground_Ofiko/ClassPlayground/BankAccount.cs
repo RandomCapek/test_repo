@@ -29,7 +29,7 @@ namespace ClassPlayground
     {
         Random random = new Random(); // pro vygenerovani nahodneho cisla uctu (accountNumber)
 
-        public int accountNumber;
+        public long accountNumber;
         public string holderName;
         public string currency;
         public int balance;
@@ -37,7 +37,7 @@ namespace ClassPlayground
 
         public void RandomAccountNumber()
         {
-            int accountNumber = new Random().Next(100000000,1000000000); // jak muzu zvysit cislo? nejakej long asi? (long) pred to cislo nejde :D
+            accountNumber = new Random().Next(100000000,1000000000); // jak muzu zvysit cislo? nejakej long asi? (long) pred to cislo nejde :D
             Console.WriteLine($"        Číslo účtu je: {accountNumber}");
         }
 
@@ -49,34 +49,59 @@ namespace ClassPlayground
             balance = 0;
         }
 
+        public void WriteBalance ()
+        {
+            Console.WriteLine($"        balance: {balance} {currency}");
+        }
+
         public void Deposit(int depositMoney)
         {
             balance += depositMoney;
         }
 
-        public void Withdraw(int withdrawMoney)
+        public void Withdraw()
         {
-            if (withdrawMoney > balance)
+            Console.Write("        Chceš vybrat nějaké peníze?(ano/ne): ");
+            string withdrawYesOrNo = Console.ReadLine();
+            if (withdrawYesOrNo == "ano")
             {
-                Console.WriteLine("Nemůžeš vybrat peníze, které nemáš!");
+                Console.Write("        Kolik: ");
+                int withdrawMoney = int.Parse(Console.ReadLine());
+                if (withdrawMoney > balance)
+                {
+                    Console.WriteLine("        Nemůžeš vybrat peníze, které nemáš!");
+                }
+                else
+                {
+                    balance -= withdrawMoney;
+                }
             }
-            else
-            {
-            balance -= withdrawMoney;
-            }
+            WriteBalance();
         }
 
-        public void Transfer(int transferMoney, int accountNumberForTransfer)
+        public void Transfer()
+        {
+            Console.Write("        Chceš poslat někam nějaké peníze?(ano/ne): ");
+            string transferYesOrNo = Console.ReadLine();
+            if (transferYesOrNo == "ano")
             {
-            if (transferMoney > balance)
-            {
-                Console.WriteLine("Nemůžeš poslat peníze, které nemáš!");
+                Console.Write("        Kolik: ");
+                int transferMoney = int.Parse(Console.ReadLine());
+                long RandomAccountNumberForTransfer = new Random().Next(100000000, 1000000000);
+                Console.WriteLine($"        Můžeš poslat peníze na účet tvojí mámy: {RandomAccountNumberForTransfer}");
+                Console.Write("        Kam: ");
+                int accountNumberForTransfer = int.Parse(Console.ReadLine());
+                if (transferMoney > balance)
+                {
+                    Console.WriteLine("Nemůžeš poslat peníze, které nemáš!");
+                }
+                else
+                {
+                    balance -= transferMoney; // odectu z jednoho uctu money
+                    // mohl bych jeste penize pripsat na ucet tvoji mamy, ale to se mi nechce :D
+                }
             }
-            else
-            {
-                balance -= transferMoney; // odectu z jednoho uctu money
-                balance/*2*/ += transferMoney; // nevim, jak je dat na druhy ucet (kde vezmu ten druhy ucet)
-            }
+            WriteBalance();
         }
     }
 }

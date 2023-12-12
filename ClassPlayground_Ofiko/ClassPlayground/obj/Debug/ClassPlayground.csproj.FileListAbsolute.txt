@@ -12,3 +12,10 @@ D:\škola\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\obj\Debug\ClassPla
 D:\škola\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\obj\Debug\ClassPlayground.csproj.CoreCompileInputs.cache
 D:\škola\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\obj\Debug\ClassPlayground.exe
 D:\škola\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\obj\Debug\ClassPlayground.pdb
+U:\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\bin\Debug\ClassPlayground.exe.config
+U:\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\bin\Debug\ClassPlayground.exe
+U:\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\bin\Debug\ClassPlayground.pdb
+U:\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\obj\Debug\ClassPlayground.csproj.AssemblyReference.cache
+U:\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\obj\Debug\ClassPlayground.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\obj\Debug\ClassPlayground.exe
+U:\PRG\test_repo\ClassPlayground_Ofiko\ClassPlayground\obj\Debug\ClassPlayground.pdb

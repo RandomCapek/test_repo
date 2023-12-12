@@ -1,0 +1,7 @@
+U:\PRG\test_repo\ClassPlayground_TryOuts\ClassPlayground_TryOuts\bin\Debug\ClassPlayground_TryOuts.exe.config
+U:\PRG\test_repo\ClassPlayground_TryOuts\ClassPlayground_TryOuts\bin\Debug\ClassPlayground_TryOuts.exe
+U:\PRG\test_repo\ClassPlayground_TryOuts\ClassPlayground_TryOuts\bin\Debug\ClassPlayground_TryOuts.pdb
+U:\PRG\test_repo\ClassPlayground_TryOuts\ClassPlayground_TryOuts\obj\Debug\ClassPlayground_TryOuts.csproj.AssemblyReference.cache
+U:\PRG\test_repo\ClassPlayground_TryOuts\ClassPlayground_TryOuts\obj\Debug\ClassPlayground_TryOuts.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\ClassPlayground_TryOuts\ClassPlayground_TryOuts\obj\Debug\ClassPlayground_TryOuts.exe
+U:\PRG\test_repo\ClassPlayground_TryOuts\ClassPlayground_TryOuts\obj\Debug\ClassPlayground_TryOuts.pdb
