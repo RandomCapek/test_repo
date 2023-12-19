@@ -1,0 +1,7 @@
+U:\PRG\test_repo\TheGameProject\bin\Debug\TheGameProject.exe.config
+U:\PRG\test_repo\TheGameProject\bin\Debug\TheGameProject.exe
+U:\PRG\test_repo\TheGameProject\bin\Debug\TheGameProject.pdb
+U:\PRG\test_repo\TheGameProject\obj\Debug\TheGameProject.csproj.AssemblyReference.cache
+U:\PRG\test_repo\TheGameProject\obj\Debug\TheGameProject.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\TheGameProject\obj\Debug\TheGameProject.exe
+U:\PRG\test_repo\TheGameProject\obj\Debug\TheGameProject.pdb
