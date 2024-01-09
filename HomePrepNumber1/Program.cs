@@ -109,19 +109,36 @@ namespace HomePrepNumber1
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Zadávání čísel do pole");
             Console.ResetColor();
+
+            int[] array = new int[5];
+            char[] operations = new char[array.Length - 1];
+            int result = 0;
             for (int i = 0; i < 4; i++)
             {
                 string arrayNumbers = Console.ReadLine();
                 if (arrayNumbers == "stop")
                 {
+                    Console.WriteLine("     STOP!");
                     break;
-                }                                   //kamo vubec netusim co tady delam aaaaa
-            }
-            for (int i = 0; i < 4; i++)
-            {
-                int[] array = new int[5];
+                }
                 array[i] = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine(array[i]);
+            }
+            for (int i = 0; i < array.Length - 1; i++)
+            {
+                operations[i] = Convert.ToChar(Console.ReadLine());
+                Console.WriteLine(operations[i]);
+            switch (Convert.ToString(operations[i]))
+            {
+                case "+":
+                    result = array[i] + array[i + 1];
+                        break;
+                case "-":
+                    result = array[i] - array[i + 1];
+                        break;
+                default:
+                    break;
+            }
+                Console.WriteLine(result);
             }
 
             // Čísla ukládej za sebou do integerového pole, které si nadefinuj libovolně velké.
