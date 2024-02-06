@@ -1,0 +1,7 @@
+U:\PRG\test_repo\GraphPlayground\GraphPlayground\bin\Debug\GraphPlayground.exe.config
+U:\PRG\test_repo\GraphPlayground\GraphPlayground\bin\Debug\GraphPlayground.exe
+U:\PRG\test_repo\GraphPlayground\GraphPlayground\bin\Debug\GraphPlayground.pdb
+U:\PRG\test_repo\GraphPlayground\GraphPlayground\obj\Debug\GraphPlayground.csproj.AssemblyReference.cache
+U:\PRG\test_repo\GraphPlayground\GraphPlayground\obj\Debug\GraphPlayground.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\GraphPlayground\GraphPlayground\obj\Debug\GraphPlayground.exe
+U:\PRG\test_repo\GraphPlayground\GraphPlayground\obj\Debug\GraphPlayground.pdb

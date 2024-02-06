@@ -66,6 +66,25 @@ namespace DFS //Depth First Search (hloubka) ---- BFS Breadth First Search (ší
              * TODO: Naimplementujte prohledávání do hloubky
              */
 
+            while (true)
+            {
+                if (currentNode.index == targetNodeIndex)
+                {
+                    break;
+                }
+                else
+                {
+                    currentNode.children();
+
+                    if (currentNode.visitedChildren.Contains(currentNode.children()))
+                    {
+                        
+                    }
+                    currentNode.visitedChildren.Add(currentNode);
+                }
+            }
+            pathToTargetNode.Add(targetNodeIndex+currentNode.parent.index); // NETUSIM !!
+
             return pathToTargetNode;
         }
 
@@ -90,7 +109,7 @@ namespace DFS //Depth First Search (hloubka) ---- BFS Breadth First Search (ší
             Console.Write("Path to node " + randomNodeIndex + " goes as follows: ");
             for (int i = path.Count - 1; i >= 0; i--)
             {
-                Console.Write(i);
+                Console.Write(path[i]);
                 if (i > 0) Console.Write(" -> ");
             }
             Console.WriteLine();
