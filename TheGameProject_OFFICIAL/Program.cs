@@ -11,7 +11,7 @@ namespace TheGameProject
             Random random = new Random(); // generator nahodnych cisel
             Game game = new Game(); // instance hry
             Player player = new Player("USER"); // instance uživatele
-
+            
             Console.WriteLine();
             // vytvoření instancí ostatních hráču
             OtherPlayers player1 = new OtherPlayers("Honzik");

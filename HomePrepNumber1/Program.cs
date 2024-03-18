@@ -6,6 +6,8 @@ namespace HomePrepNumber1
     {
         static void Main(string[] args)
         {
+            /*
+            
             Console.Title = "HomePrepNumber1"; // titulek konzole :-)
             // Načti integerové číslo od uživatele (nekontroluj, že to zadal správně)
             // K načtení využij toto: https://www.tutorialspoint.com/chash-int-parse-method
@@ -104,7 +106,12 @@ namespace HomePrepNumber1
                 Console.WriteLine("SOUČET není větší než ROZDÍL nebo SOUČIN není větší než PODÍL"); // snad je to ze jedno z toho muze platit zejo?!
             }
 
+            */
+
             // Uživatel bude do konzole psát na každý řádek libovolné číslo, dokud nenapíše místo čísla “stop”. Napiš while/for cyklus, ve kterém tohle načítání realizuješ.
+
+            /*
+
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Zadávání čísel do pole");
@@ -141,12 +148,22 @@ namespace HomePrepNumber1
                 Console.WriteLine(result);
             }
 
+            */
+            Console.WriteLine("Zadej čísla nebo 'stop' pro ukončení");
+            int size = 10;
+            int[] array = new int[size];
+            int numberIndex = 0;
+            int operationIndex = 0;
+            for (int i = 0; i < size; i++)
+            {
+
+            }
             // Čísla ukládej za sebou do integerového pole, které si nadefinuj libovolně velké.
 
             // Dávej ovšem pozor, aby uživatel nemohl zadat více proměnných, než je tvoje velikost pole.
 
             // Po číslech bude uživatel psát na každý řádek operaci (zatím jenom + a -). Ukládej si operace do charového pole stejným principem, jako sis ukládal čísla s tím, že operací musí být o 1 méně, než je čísel.
-
+            char[] operations = new char[size-1];
             // Vypočítej rovnici, kterou ti zadáním čísel a operací uživatel zadal. Když zadal čísla 5, 6 a 3 a operace + a -, znamená to rovnici 5 + 6 - 3. Výsledek vypiš uživateli do konzole.
 
             // Rozšíř operace o * a /. Dávej pozor na to, že násobení a dělení má přednost před sčítáním a odčítáním.

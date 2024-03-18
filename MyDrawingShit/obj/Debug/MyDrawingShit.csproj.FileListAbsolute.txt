@@ -1,0 +1,10 @@
+D:\škola\PRG\test_repo\MyDrawingShit\bin\Debug\MyDrawingShit.exe.config
+D:\škola\PRG\test_repo\MyDrawingShit\bin\Debug\MyDrawingShit.exe
+D:\škola\PRG\test_repo\MyDrawingShit\bin\Debug\MyDrawingShit.pdb
+D:\škola\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.csproj.AssemblyReference.cache
+D:\škola\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.Form1.resources
+D:\škola\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.Properties.Resources.resources
+D:\škola\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.csproj.GenerateResource.cache
+D:\škola\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.csproj.CoreCompileInputs.cache
+D:\škola\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.exe
+D:\škola\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.pdb

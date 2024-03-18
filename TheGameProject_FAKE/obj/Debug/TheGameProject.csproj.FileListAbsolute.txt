@@ -5,3 +5,10 @@ U:\PRG\test_repo\TheGameProject\obj\Debug\TheGameProject.csproj.AssemblyReferenc
 U:\PRG\test_repo\TheGameProject\obj\Debug\TheGameProject.csproj.CoreCompileInputs.cache
 U:\PRG\test_repo\TheGameProject\obj\Debug\TheGameProject.exe
 U:\PRG\test_repo\TheGameProject\obj\Debug\TheGameProject.pdb
+D:\škola\PRG\test_repo\TheGameProject_FAKE\bin\Debug\TheGameProject.exe.config
+D:\škola\PRG\test_repo\TheGameProject_FAKE\bin\Debug\TheGameProject.exe
+D:\škola\PRG\test_repo\TheGameProject_FAKE\bin\Debug\TheGameProject.pdb
+D:\škola\PRG\test_repo\TheGameProject_FAKE\obj\Debug\TheGameProject.csproj.AssemblyReference.cache
+D:\škola\PRG\test_repo\TheGameProject_FAKE\obj\Debug\TheGameProject.csproj.CoreCompileInputs.cache
+D:\škola\PRG\test_repo\TheGameProject_FAKE\obj\Debug\TheGameProject.exe
+D:\škola\PRG\test_repo\TheGameProject_FAKE\obj\Debug\TheGameProject.pdb
