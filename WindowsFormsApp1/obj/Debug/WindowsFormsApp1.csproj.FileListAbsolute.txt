@@ -1,0 +1,10 @@
+U:\PRG\test_repo\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+U:\PRG\test_repo\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+U:\PRG\test_repo\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+U:\PRG\test_repo\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+U:\PRG\test_repo\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+U:\PRG\test_repo\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+U:\PRG\test_repo\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+U:\PRG\test_repo\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+U:\PRG\test_repo\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

@@ -1,0 +1,7 @@
+U:\PRG\test_repo\DFS\DFS\bin\Debug\DFS.exe.config
+U:\PRG\test_repo\DFS\DFS\bin\Debug\DFS.exe
+U:\PRG\test_repo\DFS\DFS\bin\Debug\DFS.pdb
+U:\PRG\test_repo\DFS\DFS\obj\Debug\DFS.csproj.AssemblyReference.cache
+U:\PRG\test_repo\DFS\DFS\obj\Debug\DFS.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\DFS\DFS\obj\Debug\DFS.exe
+U:\PRG\test_repo\DFS\DFS\obj\Debug\DFS.pdb
