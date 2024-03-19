@@ -8,3 +8,13 @@ D:\škola\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.csproj.GenerateRes
 D:\škola\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.csproj.CoreCompileInputs.cache
 D:\škola\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.exe
 D:\škola\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.pdb
+U:\PRG\test_repo\MyDrawingShit\bin\Debug\MyDrawingShit.exe.config
+U:\PRG\test_repo\MyDrawingShit\bin\Debug\MyDrawingShit.exe
+U:\PRG\test_repo\MyDrawingShit\bin\Debug\MyDrawingShit.pdb
+U:\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.csproj.AssemblyReference.cache
+U:\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.Form1.resources
+U:\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.Properties.Resources.resources
+U:\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.csproj.GenerateResource.cache
+U:\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.exe
+U:\PRG\test_repo\MyDrawingShit\obj\Debug\MyDrawingShit.pdb
