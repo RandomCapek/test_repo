@@ -106,6 +106,7 @@ namespace ClassPlayground
 
 
             //Student
+            //nefunguje
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("STUDENT:");
             Console.ResetColor();
@@ -113,9 +114,12 @@ namespace ClassPlayground
             Console.WriteLine("Přidej nějaký předmět do listu");
             student1.AddSubjects(Console.ReadLine());
             Console.WriteLine(student1.subjects.Values);
+
             
-
-
+            // get , set
+            // get - dostávám
+            // set - nastavuju
+            // no shit tyvole :)
 
 
             /*
