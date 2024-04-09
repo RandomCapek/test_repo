@@ -17,7 +17,7 @@ namespace SortingPlayground
             /*
              * TODO: Naimplementuj bubble sort.
              */
-            for (int i = 0; i < sortedArray.Length; i++)
+            for (int i = 0; i < sortedArray.Length; i++) // krok = ITERACE
             {
                 for (int j = 0; j < sortedArray.Length - 1; j++)
                 {
@@ -40,7 +40,7 @@ namespace SortingPlayground
              */
             for (int j = 0; j < sortedArray.Length - 1; j++) // projizdim prvky pole
             {
-            int min = j; 
+            int min = j; // promenna pro zapamatovani nejmensiho cisla
                 for (int i = j + 1; i < sortedArray.Length; i++)
                 {
                     if (sortedArray[i] < sortedArray[min]) // pokud je hodnota, na ktere prave jsem mensi, nez muj pozatimni min

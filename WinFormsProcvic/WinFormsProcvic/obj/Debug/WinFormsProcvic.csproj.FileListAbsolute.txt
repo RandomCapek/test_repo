@@ -1,0 +1,10 @@
+U:\PRG\test_repo\WinFormsProcvic\WinFormsProcvic\bin\Debug\WinFormsProcvic.exe.config
+U:\PRG\test_repo\WinFormsProcvic\WinFormsProcvic\bin\Debug\WinFormsProcvic.exe
+U:\PRG\test_repo\WinFormsProcvic\WinFormsProcvic\bin\Debug\WinFormsProcvic.pdb
+U:\PRG\test_repo\WinFormsProcvic\WinFormsProcvic\obj\Debug\WinFormsProcvic.csproj.AssemblyReference.cache
+U:\PRG\test_repo\WinFormsProcvic\WinFormsProcvic\obj\Debug\WinFormsProcvic.Form1.resources
+U:\PRG\test_repo\WinFormsProcvic\WinFormsProcvic\obj\Debug\WinFormsProcvic.Properties.Resources.resources
+U:\PRG\test_repo\WinFormsProcvic\WinFormsProcvic\obj\Debug\WinFormsProcvic.csproj.GenerateResource.cache
+U:\PRG\test_repo\WinFormsProcvic\WinFormsProcvic\obj\Debug\WinFormsProcvic.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\WinFormsProcvic\WinFormsProcvic\obj\Debug\WinFormsProcvic.exe
+U:\PRG\test_repo\WinFormsProcvic\WinFormsProcvic\obj\Debug\WinFormsProcvic.pdb
