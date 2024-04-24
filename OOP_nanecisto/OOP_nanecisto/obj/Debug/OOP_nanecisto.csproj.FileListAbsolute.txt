@@ -1,0 +1,10 @@
+U:\PRG\test_repo\OOP_nanecisto\OOP_nanecisto\bin\Debug\OOP_nanecisto.exe.config
+U:\PRG\test_repo\OOP_nanecisto\OOP_nanecisto\bin\Debug\OOP_nanecisto.exe
+U:\PRG\test_repo\OOP_nanecisto\OOP_nanecisto\bin\Debug\OOP_nanecisto.pdb
+U:\PRG\test_repo\OOP_nanecisto\OOP_nanecisto\obj\Debug\OOP_nanecisto.csproj.AssemblyReference.cache
+U:\PRG\test_repo\OOP_nanecisto\OOP_nanecisto\obj\Debug\OOP_nanecisto.Form1.resources
+U:\PRG\test_repo\OOP_nanecisto\OOP_nanecisto\obj\Debug\OOP_nanecisto.Properties.Resources.resources
+U:\PRG\test_repo\OOP_nanecisto\OOP_nanecisto\obj\Debug\OOP_nanecisto.csproj.GenerateResource.cache
+U:\PRG\test_repo\OOP_nanecisto\OOP_nanecisto\obj\Debug\OOP_nanecisto.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\OOP_nanecisto\OOP_nanecisto\obj\Debug\OOP_nanecisto.exe
+U:\PRG\test_repo\OOP_nanecisto\OOP_nanecisto\obj\Debug\OOP_nanecisto.pdb

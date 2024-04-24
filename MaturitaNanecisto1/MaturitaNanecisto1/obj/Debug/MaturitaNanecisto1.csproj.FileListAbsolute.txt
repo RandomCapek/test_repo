@@ -1,0 +1,7 @@
+U:\PRG\test_repo\MaturitaNanecisto1\MaturitaNanecisto1\bin\Debug\MaturitaNanecisto1.exe.config
+U:\PRG\test_repo\MaturitaNanecisto1\MaturitaNanecisto1\bin\Debug\MaturitaNanecisto1.exe
+U:\PRG\test_repo\MaturitaNanecisto1\MaturitaNanecisto1\bin\Debug\MaturitaNanecisto1.pdb
+U:\PRG\test_repo\MaturitaNanecisto1\MaturitaNanecisto1\obj\Debug\MaturitaNanecisto1.csproj.AssemblyReference.cache
+U:\PRG\test_repo\MaturitaNanecisto1\MaturitaNanecisto1\obj\Debug\MaturitaNanecisto1.csproj.CoreCompileInputs.cache
+U:\PRG\test_repo\MaturitaNanecisto1\MaturitaNanecisto1\obj\Debug\MaturitaNanecisto1.exe
+U:\PRG\test_repo\MaturitaNanecisto1\MaturitaNanecisto1\obj\Debug\MaturitaNanecisto1.pdb
